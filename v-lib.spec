@@ -7,7 +7,7 @@ Group:		Libraries
 Source0:	http://aetos.it.teithe.gr/~v13/vlib/%{name}-%{version}.tar.gz
 # Source0-md5:	c63235ffbca3c5208f148fc402ac7795
 URL:		http://aetos.it.teithe.gr/~v13/vlib/
-BuildRequires:	gcc-g++
+BuildRequires:	gcc-c++
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
