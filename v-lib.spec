@@ -12,7 +12,6 @@ BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	libstdc++-devel
 BuildRequires:	libtool
-BuildRequires:	rpmbuild(macros) >= 1.164
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -25,7 +24,7 @@ V-lib - biblioteka u¿ywana przez programy napisane przez v13.
 Summary:	Header files for v-lib
 Summary(pl):	Pliki nag³ówkowe biblioteki v-lib
 Group:		Development/Libraries
-Requires:	%{name} = %{epoch}:%{version}-%{release}
+Requires:	%{name} = %{version}-%{release}
 Requires:	libstdc++-devel
 
 %description devel
@@ -38,7 +37,7 @@ Pliki nag³ówkowe biblioteki v-lib.
 Summary:	Static v-lib library
 Summary(pl):	Statyczna biblioteka v-lib
 Group:		Development/Libraries
-Requires:	%{name}-devel = %{epoch}:%{version}-%{release}
+Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static v-lib library.
