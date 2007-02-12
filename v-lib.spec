@@ -1,5 +1,5 @@
 Summary:	V-lib - library used by programs written by v13
-Summary(pl):	V-lib - biblioteka uøywana przez programy napisane przez v13
+Summary(pl.UTF-8):   V-lib - biblioteka u≈ºywana przez programy napisane przez v13
 Name:		v-lib
 Version:	1.5.3.0
 Release:	1
@@ -17,12 +17,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 V-lib - library used by programs written by v13.
 
-%description -l pl
-V-lib - biblioteka uøywana przez programy napisane przez v13.
+%description -l pl.UTF-8
+V-lib - biblioteka u≈ºywana przez programy napisane przez v13.
 
 %package devel
 Summary:	Header files for v-lib
-Summary(pl):	Pliki nag≥Ûwkowe biblioteki v-lib
+Summary(pl.UTF-8):   Pliki nag≈Ç√≥wkowe biblioteki v-lib
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	libstdc++-devel
@@ -30,19 +30,19 @@ Requires:	libstdc++-devel
 %description devel
 v-lib development files.
 
-%description devel -l pl
-Pliki nag≥Ûwkowe biblioteki v-lib.
+%description devel -l pl.UTF-8
+Pliki nag≈Ç√≥wkowe biblioteki v-lib.
 
 %package static
 Summary:	Static v-lib library
-Summary(pl):	Statyczna biblioteka v-lib
+Summary(pl.UTF-8):   Statyczna biblioteka v-lib
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static v-lib library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka v-lib.
 
 %prep
